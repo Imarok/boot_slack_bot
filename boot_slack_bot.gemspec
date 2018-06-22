@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["diepsohung@gmail.com"]
 
   spec.summary       = "Make your Slack Bot great again !"
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/diepsohung/boot_slack_bot"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'

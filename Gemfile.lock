@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    boot_slack_bot (0.0.1)
+    boot_slack_bot (0.0.2)
 
 GEM
   remote: https://rubygems.org/

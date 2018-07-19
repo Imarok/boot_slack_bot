@@ -1,7 +1,7 @@
 module BootSlackBot
   extend self
 
-  def say(message, web_hook = BootSlackBot.config.slack_hook)
+  def say(message, web_hook = BootSlackBot.config.slack_hook, headers = json_headers)
     if web_hook.blank?
       raise StandardError, 'Web Hook URL is blank !'
     else

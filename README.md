@@ -3,7 +3,7 @@
 ## Why you should use BootSlackBot ?
 
 It's a very simple gem helps you call your slack bot easily ! You don't need to require any `'net/http'` or
-or `'uri'` from ruby package ! I've already done it for you . All you need is just writing a very short code .
+`'uri'` from ruby package ! I've already done it for you . All you need is just writing a very short code .
 
 ## Installation
 

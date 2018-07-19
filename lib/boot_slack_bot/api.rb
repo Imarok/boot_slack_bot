@@ -1,5 +1,3 @@
-require 'httparty'
-
 module BootSlackBot
   extend self
 

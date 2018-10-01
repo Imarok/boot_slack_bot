@@ -1,9 +1,9 @@
 # BootSlackBot
 
-## Why you should use BootSlackBot ?
+## Why should you use BootSlackBot?
 
-It's a very simple gem helps you call your slack bot easily ! You don't need to require any `'net/http'` or
-`'uri'` from ruby package ! I've already done it for you . All you need is just writing a very short code .
+It's a very simple gem that helps you calling your slack bot easily! You don't require any `'net/http'` or
+`'uri'` from ruby package! I've already done it for you. All you need is just writing a very short code.
 
 ## Installation
 
@@ -19,7 +19,7 @@ And then execute:
 
 ## Usage
 
-First , you create a `boot_slack_bot.rb` in your config/initializers :
+First, you create a `boot_slack_bot.rb` in your config/initializers:
 
 ```ruby
 BootSlackBot.configure do |config|
@@ -27,7 +27,7 @@ BootSlackBot.configure do |config|
 end
 ```
 
-Finally , wake up your bot , you can add this code on anywhere you like :
+Finally, wake up your bot, you can add this code on anywhere you like:
 
 ```ruby
 BootSlackBot.say('Yolo ! Your slack bot is installed !')
